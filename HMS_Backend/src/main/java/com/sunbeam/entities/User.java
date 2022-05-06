@@ -24,11 +24,7 @@ import lombok.ToString.Exclude;
 @Table(name = "users")@Getter @Setter @NoArgsConstructor @ToString@JsonInclude(value = Include.NON_NULL)
 public class User {
 
-//	+---------+------------+------------+-------------------+----------+------------+------------+
-//	| user_userId | first_name | last_name  | email             | password | role       | cell_no    |
-//	+---------+------------+------------+-------------------+----------+------------+------------+
-//	|       1 | deepak     | dhormare   | deepak@gmail.com  | 1234     | admin      | 8793031484 |
-//
+
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Id
 	private int id;
