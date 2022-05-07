@@ -15,7 +15,7 @@ import {
   ButtonGroup,
   Image,
 } from "react-bootstrap"; 
-import "../components/full.css";
+
 import { Link } from "react-router-dom";
 import { getUser } from "../data";
 import axios from "axios";
