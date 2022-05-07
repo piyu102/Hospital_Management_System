@@ -17,8 +17,6 @@ import { useEffect, useState } from "react";
 import AddNewEmployeeModal from "../components/admin/addNewEmployeeModal";
 import RemoveEmployeeModal from "../components/admin/removeEmployeeModal";
 import UpdateEmployeeModal from "../components/admin/updateEmployee";
-import titleImage from "../assets/backgroundMain1.jpg";
-import titleImage2 from "../assets/backgroundMain.jpg";
 import { Link, useNavigate } from "react-router-dom";
 import { URL } from "../config";
 import axios from "axios";
