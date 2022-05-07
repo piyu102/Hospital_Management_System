@@ -10,7 +10,6 @@ html,body{
 }
 
 .containerFirst {
-  background-image: url(../assets/backgroundMain.jpg);
   background-size: cover;
   background-position: center;
   width: 100%;
