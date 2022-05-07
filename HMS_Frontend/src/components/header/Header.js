@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import { Image } from "react-bootstrap";
-import img1 from "../../assets/img2.png";
 import "./Header.css";
 import { useLocation } from "react-router-dom";
 function Header(prop) {
