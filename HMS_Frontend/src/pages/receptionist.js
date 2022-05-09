@@ -22,7 +22,7 @@ const ReceptionistHome = () => {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
   const [dataChangedFlag, setDataChangedFlag] = useState(false);
-  //************************=======fuctions=========--------------- */
+  //************************=======functions=========--------------- */
 
   const ToggleAddNewPatientModal = () => {
     setAddNewPatientModalFlag(true);
@@ -76,7 +76,7 @@ const ReceptionistHome = () => {
                 </Button>
               </Nav.Link>
               <Nav.Link>
-                {/* fourth menu operration */}
+                {/* fourth menu operation */}
                 <Button
                   variant="primary"
                   onClick={() => {
