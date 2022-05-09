@@ -12,7 +12,7 @@
 	<artifactId>hospital-management-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>hospital-management-server</name>
-	<description>cdac final project</description>
+	<description>SPE Major Project</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
